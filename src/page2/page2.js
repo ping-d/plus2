@@ -1,7 +1,7 @@
 require('es6-promise').polyfill();
-import './page2.scss'
+import './page2.css'
 import load from '../common-component/load-immediately/load';
-document.getElementById("btn").addEventListener("click",function (e) {
+document.getElementById("btn").addEventListener("click",function () {
     console.log(1);
     import('../common-component/demo').then(({default:Demo})=>{
         console.log(2);

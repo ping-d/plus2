@@ -1,4 +1,4 @@
-import './index.scss'
+//import './index.css'
 import temp from './index.html'
 
 class Demo{

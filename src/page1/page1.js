@@ -1,4 +1,4 @@
-require('./page1.scss')
+require('./page1.css')
 
 var Promise = require('es6-promise').Promise;
 window.Promise  = Promise;

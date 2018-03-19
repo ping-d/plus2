@@ -29,7 +29,7 @@ module.exports = {
                 ]
             },
             {
-                test: /\.scss/,
+                test: /\.css/,
                 use: ExtractTextPlugin.extract({
                     fallback: 'style-loader',
                     use: [{
@@ -38,7 +38,7 @@ module.exports = {
                             minimize:true,
                             sourceMap: false,
                         }
-                    }, 'sass-loader'],
+                    }],
 
                 })
             },
