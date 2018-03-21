@@ -6,7 +6,7 @@ import text from './demo.p';
 const str = 'this is page1';
 console.log(str);
 function getXX() {
-    return import('../xanother-module.js');
+    return import('../another-module.js');
 }
 getXX().then(({default: exports})=>{
     let a = exports + "xx";
