@@ -55,7 +55,7 @@ var jsEntrys = html_js_entrys.jsFiles;
  * entry
  * */
 var entry = {};
-var vendorEntrys = ['lodash'];//提取公用的文件
+var vendorEntrys = ['./page3/page3.js'];//提取公用的文件
 entry.vendor = vendorEntrys;
 for(var i=0;i<jsEntrys.length;i++){
     entry[path.basename(jsEntrys[i],".js")] = jsEntrys[i];
