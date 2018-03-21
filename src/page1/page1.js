@@ -5,7 +5,7 @@ window.Promise  = Promise;
 import text from './demo.p';
 const str = 'this is page1';
 console.log(str);
-
+xxx
 function getXX() {
     return import('../another-module.js');
 }
