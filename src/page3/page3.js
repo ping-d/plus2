@@ -1,1 +1,0 @@
-const str = 'this is page3'

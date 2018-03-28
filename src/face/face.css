@@ -1,0 +1,8 @@
+.show-img {
+    width: 100px;
+    height:auto;
+}
+.show-img > img {
+    width: 100%;
+    height: auto;
+}
